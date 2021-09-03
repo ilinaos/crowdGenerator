@@ -9,11 +9,11 @@ fun main() {
      val maxSpeed: Int = (120..334).random()
      
      fun info(){
-         println("$name")
-         println("$colour")
-         println("$tankCapacity")
-         println("$maxSpeed")
-     }
+        println("Название - $name")
+        println("Цвет - $colour")
+        println("Объем бака - $tankCapacity")
+        println("Максимальная скорость - $maxSpeed")
+    }
  
  }
  
